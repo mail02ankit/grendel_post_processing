@@ -1,0 +1,6 @@
+files
+* 190121 I tried extracting data for constant t_ave along t_rel direction using c_program (which I use for W.dat file).
+*        It did not work properly. So I made a bash script to do that.
+* chi_cond.py   - It uses FT from out.dat and calculate conductivity by doing $2/$1.., and plot data. It also normalize conductivity.
+* compare_cond.py - It uses J=sigma E conductivity and normalize it.
+* compare_cond.gnu -  It plots above data sets together.
